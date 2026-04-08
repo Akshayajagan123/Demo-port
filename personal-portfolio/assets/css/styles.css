@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4A90E2; /* Tailwind's blue-500 */
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.footer {
+    background-color: #f8fafc; /* Tailwind's gray-100 */
+    padding: 2rem 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn:hover {
+    @apply bg-blue-600;
+}
